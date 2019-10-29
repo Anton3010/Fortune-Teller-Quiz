@@ -5,12 +5,33 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Fortune Teller Quiz</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Fortune Teller Quiz</h1>
+      </div>
+      <form id="fortuneQuiz">
+        <div class="form-group">
+          <h3>Check all that apply</h3>
+          <input type="checkbox" name="good-fortune" value="7">Saw a number 7 in my cellphone repeatedly.<br>
+          <input type="checkbox" name="good-fortune" value="ladybug">Found a ladybug in my bed.<br>
+          <input type="checkbox" name="good-fortune" value="clover">I was gifted a four leaf clover.<br>
+          <input type="checkbox" name="bad-fortune" value="mirror">Broke a mirror.<br>
+          <input type="checkbox" name="bad-fortune" value="13">Saw the number 13 in my receipt.<br>
+          <input type="checkbox" name="bad-fortune" value="umbrella">Opened my umbrella indoors by accident.<br>
+        </div>
+        <button type="submit">Submit Quiz</button>
+      </form>
+      <span id="results">
+        <p><b></b></p>
+      </span>
+      <div class="result">
+        <ul id="results">
 
-
-
-
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
